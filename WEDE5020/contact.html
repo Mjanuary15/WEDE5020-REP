@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Ikhayalethu Car Care</title>
+</head>
+<body>
+  <header>
+    <nav aria-label="Primary navigation">
+      <!-- same nav links as index -->
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+
+    <section id="contact-details">
+      <p>Phone: <a href="tel:+27XXXXXXXXXX">+27 X XXX XXX XXX</a></p>
+      <p>Email: <a href="mailto:info@ikhayalethucarcare.co.za">info@ikhayalethucarcare.co.za</a></p>
+      <p>Address: Ikhayalethu Car Care, Rocklands, Bloemfontein</p>
+    </section>
+
+    <section id="contact-form" aria-label="Contact form">
+      <form action="/send-form" method="post">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Send enquiry</button>
+      </form>
+    </section>
+
+    <section id="map">
+      <!-- Embed Google Maps iframe -->
+      <iframe title="Ikhayalethu Car Care location" src="https://www.google.com/maps/embed?pb=" width="600" height="450" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <!-- footer links -->
+  </footer>
+</body>
+</html>
